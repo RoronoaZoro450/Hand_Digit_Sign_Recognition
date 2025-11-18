@@ -44,7 +44,6 @@ if uploaded_file is not None:
     processed_image = preprocess_image(image)
     # Get prediction
     prediction = model.predict(processed_image)
-    st.write(prediction)
     # Get the highest confidence class
     predicted_class = np.argmax(prediction[0])
     if predicted_class == 0:
