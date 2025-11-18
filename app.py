@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 from PIL import Image
 
-# Function to load the model (cached so it only loads once)
+
 @st.cache_resource
 def load_keras_model():
 
