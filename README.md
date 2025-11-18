@@ -18,8 +18,7 @@ Shows prediction
 
 Install dependencies:
 
-pip install streamlit tensorflow opencv-python-headless numpy pillow
-
+pip install -r requirements.txt
 
 Place your trained model file in the same folder and name it:
 
