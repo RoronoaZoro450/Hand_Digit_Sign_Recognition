@@ -1,3 +1,5 @@
+Deployed on Streamlit: https://hand-sign-digit-recognition.streamlit.app
+
 Sign Language Digit Classifier (Streamlit App)
 
 This is a simple Streamlit web app that predicts hand sign digits (0–9) using a trained deep learning model.
