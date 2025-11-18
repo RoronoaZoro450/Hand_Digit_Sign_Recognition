@@ -58,7 +58,7 @@ if uploaded_file is not None:
     elif predicted_class == 4:
         predicted_class = "1"
     elif predicted_class == 5:
-        predicted_class = "8"
+        predicted_class = "7"
     elif predicted_class == 6:
         predicted_class = "4"
     elif predicted_class == 7:
