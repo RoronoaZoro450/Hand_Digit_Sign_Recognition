@@ -48,15 +48,15 @@ if uploaded_file is not None:
     # Get the highest confidence class
     predicted_class = np.argmax(prediction[0])
     if predicted_class == 0:
-        predicted_class = "6"
+        predicted_class = "9"
     elif predicted_class == 1:
         predicted_class = "0"
     elif predicted_class == 2:
-        predicted_class = "7"
+        predicted_class = "8"
     elif predicted_class == 3:
-        predicted_class = "6"
-    elif predicted_class == 4:
         predicted_class = "9"
+    elif predicted_class == 4:
+        predicted_class = "1"
     elif predicted_class == 5:
         predicted_class = "8"
     elif predicted_class == 6:
